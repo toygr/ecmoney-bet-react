@@ -7,9 +7,9 @@ const Header = () => {
     return (
         <div className='flex justify-between items-center w-full h-32 bg-[#1a1a1a] border-b border-white/10 px-8 text-white font-roboto tracking-[1.7px]'>
             <div className='flex items-center'>
-                <a href="/" className="shrink-0"><img className='w-32 h-32' src="/assets/logo.jpg" /></a>
+                <a href={`${import.meta.env.BASE_URL}`} className="shrink-0"><img className='w-32 h-32' src={`${import.meta.env.BASE_URL}assets/logo.jpg`} /></a>
                 <div className='flex flex-wrap justify-center items-center w-auto gap-x-8 h-full uppercase text-[20px] font-[400px] px-10 cursor-pointer'>
-                    <HeaderButton href="/en-vivo/match/Soccer/Spain/545/23889594" title="En vivo" active />
+                    <HeaderButton href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="En vivo" active />
                     <HeaderButton href="#" title="Deportes" />
                     <HeaderButton href="#" title="Esports" />
                     <HeaderButton href="#" title="Poker" />

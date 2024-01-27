@@ -9,8 +9,8 @@ const EnVivo = () => {
         <div className="w-full bg-[#1a1a1a] border-t border-white/10">
             <div className="w-full p-2">
                 <div className="flex justify-center items-center gap-4 w-full bg-white rounded-md text-[14px] font-roboto text-[#262626]">
-                    <SelectionItem href="/en-vivo/match/overview/Soccer" title="Descripción general" />
-                    <SelectionItem href="/en-vivo/match/Soccer/Spain/545/23889594" title="Vista de eventos" active />
+                    <SelectionItem href={`${import.meta.env.BASE_URL}en-vivo/match/overview/Soccer`} title="Descripción general" />
+                    <SelectionItem href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Vista de eventos" active />
                     <SelectionItem href="#" title="Vista múltiple" />
                     <SelectionItem href="#" title="Calendario" />
                     <SelectionItem href="#" title="Resultados" />

@@ -10,11 +10,11 @@ import OverviewMatch from './pages/OverviewMatch';
 function App() {
   return (
     <HomeLayout>
-      <BrowserRouter>
+      <BrowserRouter basename={`${import.meta.env.BASE_URL}`}>
         <Routes>
           <Route index element={<Home />} />
           <Route path="en-vivo/match" element={<EnVivo />}>
-            <Route path="overview/:type" element={<OverviewMatch/>} />
+            <Route path="overview/:type" element={<OverviewMatch />} />
             <Route path=":category/:country/:league/:match">
               <Route index element={<ViewMatch />} />
             </Route>

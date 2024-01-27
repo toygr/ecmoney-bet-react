@@ -151,25 +151,25 @@ export const BallCategories = () => {
     return (
         <div ref={wrapRef} className="w-full bg-white rounded-md overflow-hidden relative group">
             <div ref={ref} className="flex items-center gap-3 w-fit px-2 py-1 transition-all ease-in-out" style={{ transform: `translate(-${shift}px, 0)` }}>
-                <BallCategoryItem href="/en-vivo/match/Soccer/Spain/545/23889594" title="Fútbol" icon="#svg-football" badge="21" active />
-                <BallCategoryItem href="/en-vivo/match/Basketball/Spain/545/23889594" title="Baloncesto" icon="#svg-basketball" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Tennis/Spain/545/23889594" title="Tenis" icon="#svg-tennis" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Volleyball/Spain/545/23889594" title="Voleibol" icon="#svg-volleyball" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/IceHockey/Spain/545/23889594" title="Hockey sobre hielo" icon="#svg-hockey" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/TableTennis/Spain/545/23889594" title="Tenis de Mesa" icon="#svg-table-tennis" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Archery/Spain/545/23889594" title="Balonmano" icon="#svg-balonmano" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Soccer/Spain/545/23889594" title="Bádminton" icon="#svg-badminton" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Soccer/Spain/545/23889594" title="Voley de Playa" icon="#svg-voley" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Soccer/Spain/545/23889594" title="Críquet" icon="#svg-cricket" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Soccer/Spain/545/23889594" title="Dardos" icon="#svg-dardos" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Soccer/Spain/545/23889594" title="Fútbol sala" icon="#svg-football-sala" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Golf/Spain/545/23889594" title="Golf" icon="#svg-golf" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Snooker/Spain/545/23889594" title="Snooker" icon="#svg-snooker" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/CounterStrike/Spain/545/23889594" title="Counter-Strike 2" icon="#svg-counter-strike" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Dota2/Spain/545/23889594" title="Dota 2" icon="#svg-dota" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Soccer/Spain/545/23889594" title="Valorant" icon="#svg-valorant" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/CyberFootball/Spain/545/23889594" title="E-Football" icon="#svg-e-football" badge="24" />
-                <BallCategoryItem href="/en-vivo/match/Soccer/Spain/545/23889594" title="E-Basketball" icon="#svg-e-basketball" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Fútbol" icon="#svg-football" badge="21" active />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Basketball/Spain/545/23889594`} title="Baloncesto" icon="#svg-basketball" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Tennis/Spain/545/23889594`} title="Tenis" icon="#svg-tennis" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Volleyball/Spain/545/23889594`} title="Voleibol" icon="#svg-volleyball" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/IceHockey/Spain/545/23889594`} title="Hockey sobre hielo" icon="#svg-hockey" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/TableTennis/Spain/545/23889594`} title="Tenis de Mesa" icon="#svg-table-tennis" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Archery/Spain/545/23889594`} title="Balonmano" icon="#svg-balonmano" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Bádminton" icon="#svg-badminton" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Voley de Playa" icon="#svg-voley" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Críquet" icon="#svg-cricket" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Dardos" icon="#svg-dardos" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Fútbol sala" icon="#svg-football-sala" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Golf/Spain/545/23889594`} title="Golf" icon="#svg-golf" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Snooker/Spain/545/23889594`} title="Snooker" icon="#svg-snooker" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/CounterStrike/Spain/545/23889594`} title="Counter-Strike 2" icon="#svg-counter-strike" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Dota2/Spain/545/23889594`} title="Dota 2" icon="#svg-dota" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Valorant" icon="#svg-valorant" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/CyberFootball/Spain/545/23889594`} title="E-Football" icon="#svg-e-football" badge="24" />
+                <BallCategoryItem href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="E-Basketball" icon="#svg-e-basketball" badge="24" />
             </div>
             <div className="hidden group-hover:block">
                 <BallCategoryNav onClick={() => setShift(v => Math.max(v - 200, 0))} dir="left" />
