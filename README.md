@@ -19,3 +19,5 @@ Only reference this repo for base frontend technique.
   ```
   npm run dev
   ```
+
+  ![image](https://github.com/user-attachments/assets/fd9d5c1d-00a3-4a2b-9382-3c86f3e14f74)
