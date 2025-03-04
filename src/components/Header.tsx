@@ -10,13 +10,13 @@ const Header = () => {
                 <a href={`${import.meta.env.BASE_URL}`} className="shrink-0"><img className='w-32 h-32' src={`${import.meta.env.BASE_URL}assets/logo.jpg`} /></a>
                 <div className='flex flex-wrap justify-center items-center w-auto gap-x-8 h-full uppercase text-[20px] font-[400px] px-10 cursor-pointer'>
                     <HeaderButton href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="En vivo" active />
-                    <HeaderButton href="#" title="Deportes" />
-                    <HeaderButton href="#" title="Esports" />
-                    <HeaderButton href="#" title="Poker" />
-                    <HeaderButton href="#" title="Casino" />
-                    <HeaderButton href="#" title="Casino en Vivo" />
-                    <HeaderButton href="#" title="Torneos" />
-                    <HeaderButton href="#" title="Deportes Virtuales" />
+                    <HeaderButton href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Deportes" />
+                    <HeaderButton href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Esports" />
+                    <HeaderButton href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Poker" />
+                    <HeaderButton href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Casino" />
+                    <HeaderButton href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Casino en Vivo" />
+                    <HeaderButton href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Torneos" />
+                    <HeaderButton href={`${import.meta.env.BASE_URL}en-vivo/match/Soccer/Spain/545/23889594`} title="Deportes Virtuales" />
                 </div>
             </div>
             <span className='text-[18px] border-b-2 border-white/30 cursor-pointer hover:bg-white hover:text-black px-1 rounded-sm transition-all ease-in-out'>Iniciar sesión</span>
